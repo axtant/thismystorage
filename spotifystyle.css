@@ -4,56 +4,62 @@
     padding: 0;
     font-family: "Poppins", sans-serif;
 }
-.container{
-    margin: 10px;
-    display: flex;
-    gap: 10px;
-    height: 200px;
-    
-}
+
 body{
-    background-color: black;
-    /* background-color:rgb(49, 49, 49); */
-}
-.left ul li{
-    display: flex;
-    align-items: center;
-    list-style-type: none; 
-    color: white; 
-}
-.left li img{
-    width : 50px;
-    margin: -10px;
-    margin-right: 0.5px;
+    background-color:black;
+    padding: 10px;
 }
 
 .left{
-    border-radius: 15px;
-    padding: 22px;
-    width: 40%;
-    background-color: rgb(68, 68, 68);
+    display: flex;
+    padding: 2px;
+    gap: 12px;
+}
+.one{
+    border-radius: 20px;
+}
+.spot{
+    width: 320px;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    display: flex;
     align-items: center;
-    
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.spot img{
+    width: 40px;
+}
+.adjust{
+    display: flex;
+    align-items: center;
+    margin: 20px 0 0 31px;
+}
+.adjust span{
+    font-size: 13px;
 }
 
-.left p{
-    display:flex;
-    justify-content: left;
-    font-family: "Poppins", sans-serif;
-    /* margin: 10px; */
-    font-size: 18px;
-    font-weight: 600;
-    text-transform: capitalizes;
-    list-style-type: none; 
-    color: #d6d6d6; 
-    cursor: pointer;
-    margin: 20px 0px;
+.two{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    list-style-type: none;
+    background-color:rgb(31, 31, 31);
+    color: white;
+    padding: 10px 10px;
+    width: 300px;
 }
-.left img{
-    width: 35px;
-    margin-right: 20px;
-    cursor: pointer;
+.two img{
+    width: 30px;
 }
+.two li{
+    display: flex;
+    align-items: center;
+    padding: 6px 23px;
+    gap: 15px;
+
+}
+
+
 .incon{
     height: 80vh;
     right: 20px;
@@ -75,7 +81,7 @@ body{
     gap: 25px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    padding: 1% 18px;
+    padding: 8px 18px;
 }
 .top button{
     padding: 11% 30px;
